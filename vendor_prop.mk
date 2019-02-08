@@ -17,5 +17,6 @@
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.qfp=false \
+    persist.sys.disable_rescue=true \
     ro.hardware.fingerprint=fpc \
     sys.fpc.tu.disabled=0
